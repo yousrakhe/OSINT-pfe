@@ -1,3 +1,0 @@
-modules load hackertarget
-options set SOURCE tesla.com 
-run
