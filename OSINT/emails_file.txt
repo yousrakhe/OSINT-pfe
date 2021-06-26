@@ -1,2 +1,0 @@
-workspace create osint
-marketplace install hunter
