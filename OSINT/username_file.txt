@@ -1,0 +1,3 @@
+marketplace install all
+modules load profiler
+exit

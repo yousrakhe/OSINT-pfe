@@ -1,0 +1,19 @@
+workspaces create osint
+marketplace install bing_domain_web
+modules load bing_domain_web
+options set SOURCE 
+run
+marketplace install google_site_web
+modules load google_site_web
+options set SOURCE 
+run
+marketplace install brute_suffix
+modules load brute_suffix
+options set SOURCE 
+run
+marketplace install load pgp_search
+modules load pgp_search
+options set SOURCE 
+run
+show contacts
+exit

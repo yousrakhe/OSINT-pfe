@@ -1,0 +1,11 @@
+workspaces create osint
+marketplace install profiler
+modules load profiler
+options set SOURCE 
+run
+marketplace install namechk
+modules load namechk
+options set SOURCE 
+run
+show profiles
+exit

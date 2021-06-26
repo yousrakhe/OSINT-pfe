@@ -1,0 +1,10 @@
+workspaces create osint
+#marketplace install all
+modules load profiler
+options set SOURCE amira_ou
+run
+modules load namechk
+options set SOURCE amira_ou
+run
+show profiles
+exit
